@@ -7,7 +7,7 @@
 
 ## 🎯 Overview
 
-This repository contains a curated collection of **8 exceptional AI-assisted development workflows** that demonstrate cutting-edge agentic patterns for sophisticated software engineering. Each workflow uses **game theory** to prevent common cognitive traps like analysis paralysis, bikeshedding, and perfectionism spirals while maintaining high quality outcomes.
+This repository contains a curated collection of **11 exceptional AI-assisted development workflows** that demonstrate cutting-edge agentic patterns for sophisticated software engineering. Each workflow uses **game theory** and systematic constraint to prevent common cognitive traps like analysis paralysis, bikeshedding, and perfectionism spirals while maintaining high quality outcomes.
 
 ## 🏆 Featured Workflows
 
@@ -20,6 +20,7 @@ This repository contains a curated collection of **8 exceptional AI-assisted dev
 | [**Feature Discovery**](workflows/meta-frameworks/feature-discovery/) | Advanced | 2-4 hours | "First idea best idea" trap | Cognitive explorers with diversity tournaments |
 | [**Refactoring Game**](workflows/meta-frameworks/refactoring-game/) | Intermediate | 1-4 hours | Perfectionism paralysis | Energy budgets with spiral detection |
 | [**Wisdom Distillation**](workflows/meta-frameworks/wisdom-distillation/) | Advanced | 1-3 hours | Knowledge silos | Experience → framework transformation |
+| [**Virgil Protocol**](workflows/meta-frameworks/virgil-protocol/) | Advanced | 2-6 hours | Over-engineering, NIH syndrome | 3% constraint with familiarity preservation |
 
 ### **Orchestration** - Multi-Agent AI Coordination
 
@@ -41,6 +42,8 @@ This repository contains a curated collection of **8 exceptional AI-assisted dev
 - **Attention Auctions**: Ensure optimal allocation of reviewer and agent focus
 - **Multi-Agent Coordination**: Sophisticated coordination between specialized AI agents
 - **Anti-Spiral Detection**: Mathematical detection and prevention of unproductive patterns
+- **Constraint Systems**: Mathematical limits that force focus on essential changes
+- **Familiarity Preservation**: Systematic protection of user mental models
 
 ### **Prevented Anti-Patterns**
 - 🚫 **Analysis Paralysis**: Endless discussion without progress
@@ -48,6 +51,8 @@ This repository contains a curated collection of **8 exceptional AI-assisted dev
 - 🚫 **Perfectionism Spirals**: Endless refinement without shipping
 - 🚫 **Tunnel Vision**: Single-perspective solutions missing alternatives
 - 🚫 **Groupthink**: Premature convergence on suboptimal ideas
+- 🚫 **Over-Engineering**: Adding complexity for theoretical benefits
+- 🚫 **NIH Syndrome**: Rejecting existing solutions due to pride
 
 ## 🚀 Quick Start
 
