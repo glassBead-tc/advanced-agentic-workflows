@@ -1,0 +1,148 @@
+name: "Ulysses Protocol"
+description: "High-stakes debugging and problem-solving framework with systematic phases and decision gates"
+category: "meta-framework"
+complexity: "expert"
+time_estimate: "1-2 days"
+
+variables:
+  problem_statement: "string (required)"
+  stakes: "low | medium | high | critical (default: medium)"
+  budget: "time duration (default: 2 days)"
+  iteration_limit: "number (default: 3)"
+  confidence_threshold: "number 0-1 (default: 0.8)"
+
+phases:
+  reconnaissance:
+    time_allocation: "25%"
+    objective: "Understand the problem space completely"
+    activities:
+      - "Gather all available context"
+      - "Map system state and dependencies"  
+      - "Analyze historical context and decisions"
+      - "Visualize relationships"
+    gate_criteria:
+      - "Problem statement is specific and measurable"
+      - "Root cause hypotheses are formed"
+      - "Success criteria are defined"
+      - "Risk assessment is complete"
+    failure_action: "Escalate or change approach"
+
+  strategic_planning:
+    time_allocation: "15%"
+    objective: "Design solution approach with multiple contingencies"
+    activities:
+      - "Generate 3 solution approaches"
+      - "Evaluate approaches across dimensions"
+      - "Learn from similar problems"
+      - "Create decision matrix"
+    gate_criteria:
+      - "Primary approach selected with high confidence"
+      - "Backup approaches identified"
+      - "Risk mitigation strategies in place"
+      - "Success metrics defined"
+    failure_action: "Return to reconnaissance or escalate"
+
+  controlled_implementation:
+    time_allocation: "45%"
+    objective: "Execute solution with continuous validation"
+    max_iterations: 3
+    activities:
+      - "Implement smallest testable change"
+      - "Validate against success criteria"
+      - "Assess unintended consequences"
+      - "Document findings"
+    iteration_gate_criteria:
+      - "Progress toward objective"
+      - "No regression introduced"
+      - "Within quality thresholds"
+      - "Learning captured"
+    failure_action: "Try backup approach, reduce scope, or escalate"
+
+  validation_documentation:
+    time_allocation: "15%"
+    objective: "Ensure solution is robust and knowledge is captured"
+    activities:
+      - "Comprehensive testing"
+      - "Update historical context"
+      - "Extract reusable patterns"
+      - "Store decision rationale"
+    gate_criteria:
+      - "All tests passing"
+      - "Performance verified"
+      - "Documentation updated"
+      - "Monitoring configured"
+      - "Rollback plan tested"
+    failure_action: "Return to implementation or accept partial solution"
+
+game_theory_mechanisms:
+  - "time_boxing"
+  - "decision_gates"
+  - "escalation_triggers"
+  - "iteration_limits"
+  - "quality_gates"
+  - "learning_capture"
+
+anti_patterns_prevented:
+  - "endless_debugging_spiral"
+  - "silver_bullet_fallacy"
+  - "hero_pattern"
+  - "scope_creep"
+  - "analysis_paralysis"
+
+escalation_triggers:
+  technical:
+    - "Problem requires expertise outside team"
+    - "Infrastructure/architectural changes needed"
+    - "Cross-team coordination required"
+  management:
+    - "Resource constraints preventing solution"
+    - "Business priority conflicts"
+    - "Risk exceeds acceptable thresholds"
+
+decision_criteria:
+  continue:
+    - "Clear progress toward objectives"
+    - "No critical system damage"
+    - "Within iteration/time budget"
+    - "Learning is occurring"
+  stop_and_escalate:
+    - "No progress after 2 iterations"
+    - "Critical system damage risk"
+    - "Problem scope expanding uncontrollably"
+    - "Stakes exceed available resources"
+  accept_partial:
+    - "Core objective achieved (even if incomplete)"
+    - "Further iteration has diminishing returns"
+    - "Business/time constraints require it"
+    - "Sufficient foundation for future work"
+
+prerequisites:
+  tools: ["claude", "git", "testing-framework"]
+  skills: ["systematic-thinking", "problem-decomposition", "risk-assessment"]
+  permissions: ["code-modification", "system-access", "escalation-authority"]
+
+success_metrics:
+  - "Problem resolution within time budget"
+  - "No critical regressions introduced"
+  - "Knowledge captured for future use"
+  - "Team capability improvement"
+  - "Stakeholder satisfaction"
+
+integration_points:
+  - "Claude Code SDK for analysis and testing"
+  - "Git for historical analysis"
+  - "Monitoring systems for validation"
+  - "mem0 for learning persistence"
+  - "Documentation systems for knowledge capture"
+
+meta_learning:
+  tracks:
+    - "Gate criteria effectiveness"
+    - "Estimation accuracy"
+    - "Risk assessment quality"
+    - "Escalation trigger precision"
+  improves:
+    - "Phase time allocation"
+    - "Decision criteria refinement"
+    - "Pattern recognition"
+    - "Organizational capability"
