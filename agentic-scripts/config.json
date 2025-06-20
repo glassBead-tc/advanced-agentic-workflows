@@ -5,7 +5,13 @@
     "enhancement_level": "selective"
   },
   "scripts": {
-    "enabled": ,
+    "enabled": [
+      "evolution/adas-meta-agent.sh",
+      "evolution/meta-meta-evolution-engine.sh",
+      "optimization/performance-driven-auto-tuning.sh",
+      "dev-tools/intelligent-debugger.sh",
+      "memory/memory-manager.sh"
+    ],
     "auto_execution": false,
     "monitoring_enabled": true
   },

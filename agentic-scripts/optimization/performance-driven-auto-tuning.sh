@@ -342,8 +342,19 @@ store_trace_to_supabase() {
 }
 EOF
     
-    # TODO: Send to Supabase API when credentials are available
-    echo "📊 Trace stored: $trace_id ($duration_ms ms)"
+    # Optionally upload to Supabase if credentials are present
+    if [ -n "$SUPABASE_URL" ] && [ -n "$SUPABASE_KEY" ]; then
+        curl -s "$SUPABASE_URL/rest/v1/traces" \
+            -H "apikey: $SUPABASE_KEY" \
+            -H "Authorization: Bearer $SUPABASE_KEY" \
+            -H "Content-Type: application/json" \
+            -H "Prefer: return=minimal" \
+            --data-binary "@${TRACES_DIR}/trace_${trace_id}.json" >/dev/null 2>&1 && \
+            echo "📤 Trace uploaded to Supabase" || \
+            echo "⚠️  Failed to upload trace to Supabase"
+    else
+        echo "📊 Trace stored locally: $trace_id ($duration_ms ms)"
+    fi
 }
 
 # Get or create script ID in Supabase
