@@ -81,6 +81,41 @@ pnpm install
 ./tools/workflow-runner.js ulysses-protocol "Fix critical MCP integration causing workflow failures"
 ```
 
+### Sequential Refactoring Server
+
+This example server mirrors the sequential processing flow of the Clear Thought
+server but for code refactoring tasks. Start the server:
+
+```bash
+node agentic-scripts/refactoring/sequential-refactor-server.js
+```
+
+Create a new session:
+
+```bash
+curl -X POST http://localhost:3000/sessions
+```
+
+Add a refactoring step (replace `<id>` with the returned session ID):
+
+```bash
+curl -X POST http://localhost:3000/sessions/<id>/step \
+  -H 'Content-Type: application/json' \
+  -d '{"step":"Extract function","stepNumber":1,"totalSteps":3}'
+```
+
+Retrieve all steps for a session:
+
+```bash
+curl http://localhost:3000/sessions/<id>
+```
+
+Check server health:
+
+```bash
+curl http://localhost:3000/health
+```
+
 ## 📚 Documentation
 
 - **[Getting Started Guide](docs/getting-started.md)** - Learn the fundamentals
