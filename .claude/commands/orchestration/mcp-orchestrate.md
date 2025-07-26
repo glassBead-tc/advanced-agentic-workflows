@@ -295,3 +295,7 @@ The orchestration system improves through usage:
 **Ready to orchestrate complex AI workflows with elegant simplicity?**
 
 The MCP Orchestration DSL transforms complex tool coordination from programming challenge into readable, maintainable workflow definitions that anyone can understand and modify.
+
+## Related Workflows
+- [Swarm Intelligence](swarm-intelligence.md)
+- [Pattern Synthesizer](../synthesis/pattern-synthesizer.md)

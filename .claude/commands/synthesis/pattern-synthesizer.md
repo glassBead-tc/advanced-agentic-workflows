@@ -277,3 +277,7 @@ The system improves through pattern analysis:
 **Ready to leverage the collective wisdom of proven solutions?**
 
 The Pattern Synthesizer transforms scattered knowledge into organized, reusable patterns that accelerate development while preventing common mistakes and reducing technical debt.
+
+## Related Workflows
+- [Feature Discovery](../meta-frameworks/feature-discovery.md)
+- [Meta-Learning Darwin Gödel Machine](meta-learning-dgm.md)

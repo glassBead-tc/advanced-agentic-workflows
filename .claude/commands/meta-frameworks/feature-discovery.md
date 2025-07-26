@@ -234,3 +234,6 @@ The system improves through usage:
 **Ready to discover breakthrough feature implementations?**
 
 Feature Discovery transforms feature design from first-idea-wins to systematic exploration of the solution space, consistently producing more innovative and robust implementations.
+
+## Related Workflows
+- [Pattern Synthesizer](../synthesis/pattern-synthesizer.md)
