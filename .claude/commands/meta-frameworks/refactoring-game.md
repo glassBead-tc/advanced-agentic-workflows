@@ -211,3 +211,7 @@ The Refactoring Game learns from each execution:
 **Ready to refactor systematically without falling into perfectionism traps?**
 
 The Refactoring Game provides the structure and constraints needed to improve code quality efficiently while maintaining shipping velocity and team sanity.
+
+## Related Workflows
+- [Code Review Game](code-review-game.md)
+- [Virgil Protocol](virgil-protocol.md)

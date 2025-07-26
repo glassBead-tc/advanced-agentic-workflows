@@ -15,25 +15,25 @@ This repository contains a curated collection of **11 exceptional AI-assisted de
 
 | Workflow | Complexity | Time | Prevents | Key Innovation |
 |----------|------------|------|----------|----------------|
-| [**Ulysses Protocol**](workflows/meta-frameworks/ulysses-protocol/) | Expert | 1-2 days | Endless debugging spirals | Time-boxed phases with decision gates |
-| [**Code Review Game**](workflows/meta-frameworks/code-review-game/) | Advanced | 20-60 min | Bikeshedding, tunnel vision | Multi-agent reviews with concern budgets |
-| [**Feature Discovery**](workflows/meta-frameworks/feature-discovery/) | Advanced | 2-4 hours | "First idea best idea" trap | Cognitive explorers with diversity tournaments |
-| [**Refactoring Game**](workflows/meta-frameworks/refactoring-game/) | Intermediate | 1-4 hours | Perfectionism paralysis | Energy budgets with spiral detection |
-| [**Wisdom Distillation**](workflows/meta-frameworks/wisdom-distillation/) | Advanced | 1-3 hours | Knowledge silos | Experience → framework transformation |
-| [**Virgil Protocol**](workflows/meta-frameworks/virgil-protocol/) | Advanced | 2-6 hours | Over-engineering, NIH syndrome | 3% constraint with familiarity preservation |
+| [**Ulysses Protocol**](.claude/commands/meta-frameworks/ulysses-protocol.md) | Expert | 1-2 days | Endless debugging spirals | Time-boxed phases with decision gates |
+| [**Code Review Game**](.claude/commands/meta-frameworks/code-review-game.md) | Advanced | 20-60 min | Bikeshedding, tunnel vision | Multi-agent reviews with concern budgets |
+| [**Feature Discovery**](.claude/commands/meta-frameworks/feature-discovery.md) | Advanced | 2-4 hours | "First idea best idea" trap | Cognitive explorers with diversity tournaments |
+| [**Refactoring Game**](.claude/commands/meta-frameworks/refactoring-game.md) | Intermediate | 1-4 hours | Perfectionism paralysis | Energy budgets with spiral detection |
+| [**Wisdom Distillation**](.claude/commands/meta-frameworks/wisdom-distillation.md) | Advanced | 1-3 hours | Knowledge silos | Experience → framework transformation |
+| [**Virgil Protocol**](.claude/commands/meta-frameworks/virgil-protocol.md) | Advanced | 2-6 hours | Over-engineering, NIH syndrome | 3% constraint with familiarity preservation |
 
 ### **Orchestration** - Multi-Agent AI Coordination
 
 | Workflow | Complexity | Time | Prevents | Key Innovation |
 |----------|------------|------|----------|----------------|
-| [**Swarm Intelligence**](workflows/orchestration/swarm-intelligence/) | Expert | Variable | Single-perspective solutions | 5 specialized agents with dynamic spawning |
-| [**MCP Orchestration DSL**](workflows/orchestration/mcp-orchestrate/) | Intermediate | 30-60 min | Tool integration complexity | Simple DSL for complex AI workflows |
+| [**Swarm Intelligence**](.claude/commands/orchestration/swarm-intelligence.md) | Expert | Variable | Single-perspective solutions | 5 specialized agents with dynamic spawning |
+| [**MCP Orchestration DSL**](.claude/commands/orchestration/mcp-orchestrate.md) | Intermediate | 30-60 min | Tool integration complexity | Simple DSL for complex AI workflows |
 
 ### **Synthesis** - Knowledge Extraction and Pattern Mining
 
 | Workflow | Complexity | Time | Prevents | Key Innovation |
 |----------|------------|------|----------|----------------|
-| [**Pattern Synthesizer**](workflows/synthesis/pattern-synthesizer/) | Advanced | 2-4 hours | Pattern reinvention | Multi-source extraction with meta-patterns |
+| [**Pattern Synthesizer**](.claude/commands/synthesis/pattern-synthesizer.md) | Advanced | 2-4 hours | Pattern reinvention | Multi-source extraction with meta-patterns |
 
 ## 🎮 Game Theory Innovations
 

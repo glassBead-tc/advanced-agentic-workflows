@@ -235,3 +235,7 @@ The system improves through usage:
 **Ready to transform experience into wisdom?**
 
 Wisdom Distillation provides the systematic approach needed to capture, validate, and share the deep insights that make teams and organizations truly excellent at what they do.
+
+## Related Workflows
+- [Virgil Protocol](virgil-protocol.md)
+- [Ulysses Protocol](ulysses-protocol.md)

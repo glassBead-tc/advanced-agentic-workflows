@@ -266,3 +266,6 @@ The system improves through review cycles:
 **Ready to transform code reviews from tedious process to systematic quality assurance?**
 
 The Code Review Game provides the structure and game-theoretic mechanisms needed to ensure thorough, efficient reviews while preventing the common anti-patterns that waste time and miss important issues.
+
+## Related Workflows
+- [Refactoring Game](refactoring-game.md)

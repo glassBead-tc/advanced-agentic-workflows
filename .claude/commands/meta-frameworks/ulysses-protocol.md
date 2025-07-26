@@ -194,3 +194,7 @@ This creates a feedback loop where the protocol becomes more effective at preven
 **Ready to transform chaotic debugging into systematic problem-solving?**
 
 The Ulysses Protocol provides the structure and discipline needed to tackle complex technical challenges efficiently while building organizational capability over time.
+
+## Related Workflows
+- [Swarm Intelligence](../orchestration/swarm-intelligence.md)
+- [MCP Orchestration DSL](../orchestration/mcp-orchestrate.md)

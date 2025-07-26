@@ -289,3 +289,7 @@ The Virgil Protocol transforms this insight into systematic practice:
 **Ready to innovate through intelligent constraint?**
 
 The Virgil Protocol provides the discipline and framework needed to create meaningful innovation while preserving the familiarity that drives adoption and success.
+
+## Related Workflows
+- [Feature Discovery](feature-discovery.md)
+- [Refactoring Game](refactoring-game.md)

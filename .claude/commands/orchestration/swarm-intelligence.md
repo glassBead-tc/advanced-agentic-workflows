@@ -253,3 +253,7 @@ The swarm improves through collective experience:
 **Ready to tackle complex challenges with coordinated AI intelligence?**
 
 The Swarm Intelligence Orchestrator transforms impossible problems into manageable challenges by leveraging the collective intelligence of specialized agents working in perfect coordination.
+
+## Related Workflows
+- [MCP Orchestration DSL](mcp-orchestrate.md)
+- [Ulysses Protocol](../meta-frameworks/ulysses-protocol.md)

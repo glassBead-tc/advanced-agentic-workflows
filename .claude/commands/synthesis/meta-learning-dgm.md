@@ -285,3 +285,7 @@ The Darwin Gödel Machine learns how to improve itself:
 **Ready to create an AI system that continuously improves itself?**
 
 The Meta-Learning Darwin Gödel Machine represents the next evolution in AI development - systems that don't just solve problems but systematically improve their own ability to solve problems, creating ever-more-capable partners for human intelligence.
+
+## Related Workflows
+- [Pattern Synthesizer](pattern-synthesizer.md)
+- [Ulysses Protocol](../meta-frameworks/ulysses-protocol.md)
