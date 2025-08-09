@@ -106,27 +106,29 @@ function demo(flags) {
 
 (function main() {
   const { cmd, rest, flags } = parseArgs(process.argv);
-  if (!cmd || flags.help) return help();
+  if (flags.help) { help(); process.exit(0); }
+  if (!cmd) { help(); process.exit(1); }
 
   switch (cmd) {
     case 'review': {
-      if (!rest[0]) { console.error('Missing <pr-url|path>'); return 1; }
-      return process.exit(runWorkflow('code-review-game', rest, flags));
+      if (!rest[0]) { console.error('Missing <pr-url|path>'); process.exit(1); }
+      process.exit(runWorkflow('code-review-game', rest, flags));
     }
     case 'discover': {
-      if (!rest[0]) { console.error('Missing "<capability>"'); return 1; }
-      return process.exit(runWorkflow('feature-discovery', rest, flags));
+      if (!rest[0]) { console.error('Missing "<capability>"'); process.exit(1); }
+      process.exit(runWorkflow('feature-discovery', rest, flags));
     }
     case 'ulysses': {
-      if (!rest[0]) { console.error('Missing "<bug summary>"'); return 1; }
-      return process.exit(runWorkflow('ulysses-protocol', rest, flags));
+      if (!rest[0]) { console.error('Missing "<bug summary>"'); process.exit(1); }
+      process.exit(runWorkflow('ulysses-protocol', rest, flags));
     }
     case 'demo': {
-      return process.exit(demo(flags));
+      process.exit(demo(flags));
     }
     default: {
       console.error(`Unknown command: ${cmd}\n`);
-      return help();
+      help();
+      process.exit(1);
     }
   }
 })();
