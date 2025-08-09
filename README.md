@@ -21,6 +21,14 @@ This repository contains a curated collection of **11 exceptional AI-assisted de
 | [**Refactoring Game**](.claude/commands/meta-frameworks/refactoring-game.md) | Intermediate | 1-4 hours | Perfectionism paralysis | Energy budgets with spiral detection |
 | [**Wisdom Distillation**](.claude/commands/meta-frameworks/wisdom-distillation.md) | Advanced | 1-3 hours | Knowledge silos | Experience → framework transformation |
 | [**Virgil Protocol**](.claude/commands/meta-frameworks/virgil-protocol.md) | Advanced | 2-6 hours | Over-engineering, NIH syndrome | 3% constraint with familiarity preservation |
+| [**Critical Path Quest**](.claude/commands/meta-frameworks/critical-path-quest.md) | Advanced | 2-6 hours | Wishful scheduling | CPM with path defense |
+| [**Bottleneck Blitz**](.claude/commands/meta-frameworks/bottleneck-blitz.md) | Intermediate | Variable | Local optimization of non-bottlenecks | Iterative Theory of Constraints |
+| [**Knapsack Sprint**](.claude/commands/meta-frameworks/knapsack-sprint.md) | Intermediate | 30-60 min | Scope spread | Capacity-bounded value picking |
+| [**Queue Triage**](.claude/commands/meta-frameworks/queue-triage.md) | Advanced | 30-90 min | Unbounded queues | Simulated arrival/service control |
+| [**Pareto Pursuit**](.claude/commands/meta-frameworks/pareto-pursuit.md) | Advanced | 1-2 hours | Single-metric myopia | Frontier mapping |
+| [**Monte Carlo Mandate**](.claude/commands/meta-frameworks/monte-carlo-mandate.md) | Advanced | 1-2 hours | Deterministic planning | Stochastic strategy evaluation |
+| [**Sensitivity Sweep**](.claude/commands/meta-frameworks/sensitivity-sweep.md) | Intermediate | 30-60 min | Fragile plans | Parameter robustness analysis |
+| [**Shadow Price Showdown**](.claude/commands/meta-frameworks/shadow-price-showdown.md) | Expert | 1-2 hours | Misplaced optimization | Dual-based constraint valuation |
 
 ### **Orchestration** - Multi-Agent AI Coordination
 
