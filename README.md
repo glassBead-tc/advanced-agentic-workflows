@@ -29,6 +29,8 @@ This repository contains a curated collection of **11 exceptional AI-assisted de
 | [**Monte Carlo Mandate**](.claude/commands/meta-frameworks/monte-carlo-mandate.md) | Advanced | 1-2 hours | Deterministic planning | Stochastic strategy evaluation |
 | [**Sensitivity Sweep**](.claude/commands/meta-frameworks/sensitivity-sweep.md) | Intermediate | 30-60 min | Fragile plans | Parameter robustness analysis |
 | [**Shadow Price Showdown**](.claude/commands/meta-frameworks/shadow-price-showdown.md) | Expert | 1-2 hours | Misplaced optimization | Dual-based constraint valuation |
+| [**Stage Gate Sentinel**](.claude/commands/meta-frameworks/stage-gate-sentinel.md) | Advanced | 1-5 days | Scope creep, sunk cost fallacy | Stage-Gate phases with DMAIC metrics |
+| [**OODA Loop Sprint**](.claude/commands/meta-frameworks/ooda-loop-sprint.md) | Intermediate | 30-120 min | Slow feedback, analysis paralysis | OODA cycles with gamified PDCA checks |
 
 ### **Orchestration** - Multi-Agent AI Coordination
 
