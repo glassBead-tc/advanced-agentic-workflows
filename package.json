@@ -1,0 +1,12 @@
+{
+  "name": "reynard-playbooks",
+  "version": "0.1.0",
+  "bin": { "reynard": "bin/reynard.js" },
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "files": ["bin/", "examples/", "assets/", "reports/.gitkeep", "README.md", "LICENSE"],
+  "scripts": {
+    "cli:link": "chmod +x bin/reynard.js && npm link",
+    "demo": "node bin/reynard.js demo"
+  }
+}
